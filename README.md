@@ -14,7 +14,7 @@ These instructions were last tested on the following hardware and software:
 
 ## Installation Instructions
 
-Clone the EC Github repository and enter it.
+Clone the [EC Github repository](https://github.com/Electron-Cash/Electron-Cash) and enter it.
 
 - `git clone https://github.com/Electron-Cash/Electron-Cash`
 - `cd Electron-Cash`
