@@ -1,6 +1,6 @@
 # rpi-ec
 
-This repository includes instructions for installing the [Electron Cash](https://electroncash.org/) with [CashFusion](https://cashfusion.org/) on a Raspberry Pi 400 running Ubuntu Linux. Electron Cash is a full-features HD wallet for Bitcoin Cash (BCH). CashFusion is a [CoinJoin protocol](https://en.bitcoin.it/wiki/CoinJoin) for anonymizing BCH and reclaiming [fugability](https://www.investopedia.com/terms/f/fungibility.asp).
+This repository includes instructions for installing the [Electron Cash](https://electroncash.org/) wallet with [CashFusion](https://cashfusion.org/), on a Raspberry Pi 400 running Ubuntu Linux. Electron Cash is a full-features HD wallet for Bitcoin Cash (BCH). CashFusion is a [CoinJoin protocol](https://en.bitcoin.it/wiki/CoinJoin) for anonymizing BCH and reclaiming [fugability](https://www.investopedia.com/terms/f/fungibility.asp).
 
 The instructions in this document will walk through the step-by-step commands for installing Electron Cash on a Pi 400 or Raspberry Pi 4 running Ubuntu Linux. The software must be installed from source code, because these devices run a `arm64` architecture which is not included in the AppImage releases for Electron cash.
 
@@ -50,4 +50,4 @@ Compile libsecp256k1
 
 Install Tor. This is needed for CashFusion.
 
-- `sudo apt install tor`
+- `sudo apt install tor -y`
